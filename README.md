@@ -3,14 +3,15 @@
 This npm package has several methods that helps user to create HTML elements in fewer lines.
 
 ```
-const createElement = (element, className) => {
-  const elm = document.createElement(element);
-  elm.className = className;
-  return elm;
-};
+const kubilay = require('kubilay');
 
-const nav = createElement('nav', 'd-none d-md-block');
-body.appendChild(nav);
+const nav = kubilay.createElement('nav', 'd-none d-md-block');
+```
+
+```
+import { createElementWithText } from 'kubilay';
+
+const nav = createElementWithText('nav', 'd-none d-md-block', 'Ankara is the capital of Turkey.');
 ```
 
 ## Author
