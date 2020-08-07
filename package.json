@@ -1,0 +1,14 @@
+{
+  "name": "kubilay",
+  "version": "1.0.0",
+  "description": "A collection of utility tools to create HTML elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kubilay"
+  ],
+  "author": "Kubilay Caglayan",
+  "license": "ISC"
+}
