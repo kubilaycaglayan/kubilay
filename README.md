@@ -35,7 +35,7 @@ const imageElement = createImage(Image, `A cat image`, 'rounded');
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kubilaycaglayan/Restaurant-Page/issues).
+Feel free to check the [issues page](https://github.com/kubilaycaglayan/kubilay/issues).
 
 ## Show your support
 
