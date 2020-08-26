@@ -1,7 +1,7 @@
 # kubilay
 
 This npm package has several methods that helps user to create HTML elements in fewer lines.
-Also has athousand separator method.
+Also has a thousand separator method.
 
 ### Usage
 
@@ -32,7 +32,9 @@ const imageElement = createImage(Image, `A cat image`, 'rounded');
 ```javascript
 import { separate } from 'kubilay';
 
-separate('123456789.00) // => '123,456,789.00'
+separate('123456789.00') // => '123,456,789.00'
+separate('123456789') // => '123,456,789'
+separate('-123456789') // => '-123,456,789'
 ```
 
 ### Run tests

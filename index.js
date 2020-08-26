@@ -1,7 +1,8 @@
-export {
-  createElement,
-  createElementWithText,
-  createImage,
-} from './lib/htmlElements.js';
+const kubilay = {
+  separate: require('./lib/separator'),
+  createElement: require('./lib/htmlElements'),
+  createElementWithText: require('./lib/htmlElements'),
+  createImage: require('./lib/htmlElements'),
+};
 
-export { default as separate } from './lib/separator.js';
+module.exports = kubilay;
