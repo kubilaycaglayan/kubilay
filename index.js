@@ -2,6 +2,6 @@ export {
   createElement,
   createElementWithText,
   createImage,
-} from './lib/htmlElements';
+} from './lib/htmlElements.js';
 
-export { default as separate } from './lib/separator';
+export { default as separate } from './lib/separator.js';

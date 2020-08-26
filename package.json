@@ -3,8 +3,9 @@
   "version": "1.0.6",
   "description": "A collection of utility tools to create HTML elements.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "kubilay"
@@ -16,11 +17,13 @@
     "url": "https://github.com/kubilaycaglayan/kubilay"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2"
-  },
-  "dependencies": {
+    "eslint-plugin-import": "^2.20.2",
     "jest": "^26.4.2"
-  }
+  },
+  "dependencies": {}
 }
