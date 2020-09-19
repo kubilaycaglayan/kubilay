@@ -1,6 +1,6 @@
 {
   "name": "kubilay",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A collection of utility tools to create HTML elements.",
   "main": "index.js",
   "type": "module",
